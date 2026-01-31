@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Developer Portfolio | Technical Excellence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <nav class="glass-nav">
+        <div class="container">
+            <a href="#" class="logo">PORTFOLIO</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content reveal">
+                    <div class="profile-img-container">
+                        <img src="assets/me.png" alt="Profile" class="profile-img">
+                    </div>
+                    <h1 class="headline">Solving complex problems with <span class="gradient-text">clean code</span>.</h1>
+                    <p class="subheadline">Full-Stack Software Developer & AI Specialist</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Grid -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title reveal">Core Services</h2>
+                <div class="service-grid">
+                    <div class="service-card reveal">
+                        <i data-lucide="layout" class="service-icon"></i>
+                        <h3>Web Construction</h3>
+                        <p>High-performance, scalable web experiences built with modern architecture and technical precision.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card reveal">
+                        <i data-lucide="smartphone" class="service-icon"></i>
+                        <h3>Mobile Architecture</h3>
+                        <p>Cross-platform application development focusing on seamless UX and robust performance across devices.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Marquee -->
+        <section class="stack" id="stack">
+            <div class="container">
+                <h2 class="section-title reveal">Tech Stack</h2>
+                <div class="marquee-container reveal">
+                    <div class="marquee">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>AI Integration</span>
+                        <span>Terra AI</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>AI Integration</span>
+                        <span>Terra AI</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Showcase -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <div class="project-grid">
+                    <!-- Placeholder projects -->
+                    <div class="project-card reveal">
+                        <div class="project-header">
+                            <i data-lucide="github"></i>
+                            <div class="project-links">
+                                <a href="#"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <h3>Terra AI Integration</h3>
+                        <p>Advanced AI implementation using Terra AI for predictive data modeling and natural language processing.</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-header">
+                            <i data-lucide="github"></i>
+                            <div class="project-links">
+                                <a href="#"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <h3>Clean-Code Framework</h3>
+                        <p>A modular CSS/JS framework designed for high-performance SaaS applications with a focus on maintainability.</p>
+                        <div class="project-tags">
+                            <span>Architecture</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <h2 class="section-title">Start a Conversation</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Senior Developer Portfolio. Built for Technical Excellence.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
